@@ -4,7 +4,9 @@ import { FaReact, FaNodeJs, FaAws, FaDatabase, FaDocker, FaAngular, FaGithub, Fa
 import { SiRubyonrails, SiPostgresql, SiMongodb, SiMaterialdesign, SiHtml5, SiCss3, SiJquery, SiAwsamplify, SiFirebase, SiTerraform, SiArgo } from 'react-icons/si';
 import { Project } from '../types';
 import { getProjects } from '../queries/getProjects';
-import { GrDeploy, GrKubernetes } from "react-icons/gr";
+import { GrDeploy } from "react-icons/gr";
+import { SiKubernetes } from "react-icons/si";
+
 
 const techIcons: { [key: string]: JSX.Element } = {
   "ReactJS": <FaReact />,
@@ -32,7 +34,7 @@ const techIcons: { [key: string]: JSX.Element } = {
   'Firebase': <SiFirebase />,
   'GCP': <FaGoogle />,
   'Azure': <FaMicrosoft />,
-  'Kubernetes': <GrKubernetes />,
+  'Kubernetes': <SiKubernetes />,
   'Terraform': <SiTerraform />,
   'ArgoCD': <SiArgo />,
   'Java': <FaJava />,
